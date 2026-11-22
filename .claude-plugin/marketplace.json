@@ -1,0 +1,13 @@
+{
+  "name": "naming-skill",
+  "owner": {
+    "name": "ThatXliner"
+  },
+  "plugins": [
+    {
+      "name": "naming-cheatsheet",
+      "source": "./",
+      "description": "Agent skill for naming variables and functions, based on kettanaito's naming cheatsheet."
+    }
+  ]
+}

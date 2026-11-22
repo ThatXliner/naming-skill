@@ -1,0 +1,12 @@
+{
+  "name": "naming-cheatsheet",
+  "version": "1.0.0",
+  "description": "Agent skill for naming variables and functions, based on kettanaito's naming cheatsheet.",
+  "author": {
+    "name": "ThatXliner"
+  },
+  "homepage": "https://github.com/ThatXliner/naming-skill",
+  "repository": "https://github.com/ThatXliner/naming-skill",
+  "license": "MIT",
+  "keywords": ["naming", "code-style", "skill"]
+}
