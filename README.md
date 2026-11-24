@@ -6,6 +6,14 @@
 
 # Naming cheatsheet skill
 
+> [!TIP]
+> **Try [x-names](https://github.com/ThatXliner/xtras/tree/main/skills/x-names) instead.** It's the successor to this skill and lives in [**xtras**](https://github.com/ThatXliner/xtras), along with my other Claude Code skills. It keeps this whole cheatsheet as a reference and adds what the cheatsheet doesn't cover: units in names (`cooldownSeconds`, not `cooldown`), look-alike names in the same scope, one fixed meaning per verb (`get` vs `fetch`, `remove` vs `delete`), and the reasoning behind each rule, so the agent can make judgment calls in cases no rule covers.
+>
+> ```
+> claude plugin marketplace add ThatXliner/claude-plugins
+> claude plugin install xtras
+> ```
+
 An [agent skill](https://agentskills.io) that teaches coding agents how to name variables and functions. It packages [kettanaito/naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet) for Claude Code and other agents that read `SKILL.md` files.
 
 The agent loads the skill when it writes new code, picks or reviews names, or renames things in a refactor. The skill covers:
